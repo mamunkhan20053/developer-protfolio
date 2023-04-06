@@ -76,6 +76,7 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 section {
     margin-bottom: 30px;
     margin-top: 130px;
@@ -169,12 +170,45 @@ skill-title {
     border-radius: 5px;
     padding: 30px;
 }
-.skill-title{
+
+.skill-title {
     margin-top: 30px;
     margin-bottom: 20px;
 
 }
+
 /* resume content styles */
-.resume-container{
+.resume-container {
     display: flex;
+    gap: 71px;
+}
+.resume-item{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.resume-item .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-item .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.resume-item .description {
+    color: #757575;
+    margin-top: 20px;
+
+}
+
+/* download cv button */
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
 }
