@@ -182,7 +182,8 @@ skill-title {
     display: flex;
     gap: 71px;
 }
-.resume-item{
+
+.resume-item {
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -208,7 +209,62 @@ skill-title {
 }
 
 /* download cv button */
-.resume-button{
+.resume-button {
     margin-top: 50px;
     text-align: center;
+}
+
+/* self some css code my masum billah */
+/* .bottom-field {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 112px;
+}
+
+.section-1 {
+    padding-top: 130px;
+
+
+    padding-left: 230px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-title,
+type["text"],
+type["email"] {
+    width: 461px;
+    height: 64px;
+    
+} */
+
+
+
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: none;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact a{
+    text-decoration: none;
+}
+input{
+    height: 64px;
+
 }
