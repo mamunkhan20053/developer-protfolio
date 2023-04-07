@@ -214,6 +214,18 @@ skill-title {
     text-align: center;
 }
 
+.contact-btn {
+    font-weight: 700;
+    font-size: 20px;
+
+    color: #FD6E0A;
+    padding: 18px;
+    background: #FFF8F3;
+    border: 1.5px solid #FD6E0A;
+
+
+}
+
 /* self some css code my masum billah */
 /* .bottom-field {
     display: flex;
@@ -244,27 +256,31 @@ type["email"] {
 
 
 /* contact styles */
-.contact{
+.contact {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
 }
 
-.contact .section-title{
+.contact .section-title {
     text-align: left;
 }
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"],
+input[type="email"],
+textarea {
     margin-bottom: 24px;
     border: none;
     width: 100%;
     padding: 18px 30px;
 }
-.contact a{
+
+.contact a {
     text-decoration: none;
 }
-input{
+
+input {
     height: 64px;
 
 }
